@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /privacy-policy
+Disallow: /terms-and-conditions
+
+Sitemap: https://technosunpower.com/sitemap.xml
