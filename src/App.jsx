@@ -13,6 +13,7 @@ import Sustainability from './pages/Sustainability.jsx';
 import Contact from './pages/Contact.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
 import TermsAndConditions from './pages/TermsAndConditions.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 const App = () => (
   <>
@@ -30,6 +31,7 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
     <Footer />
